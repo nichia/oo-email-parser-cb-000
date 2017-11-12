@@ -6,7 +6,7 @@ class EmailParser
   attr_accessor :emails
 
   def initialize(filename)
-    @emails = filename.split(/ |, |,/)
+    @emails = filename.split(/ |,/)
   end
 
   def parse
